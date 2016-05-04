@@ -1,0 +1,70 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  4 MAY 2016 20:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"207 Formula.tex"
+(./207 Formula.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./207 Formula.aux)
+\openout1 = `"207 Formula.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+
+Overfull \hbox (4.15775pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/bx/n/10 MEMS\OT1/cmr/m/n/10 : Micro-Electro-Mechanical Sys-tems. Mic
+ro-components in-te-grated
+ []
+
+[1
+
+] [2] (./207 Formula.aux) ) 
+Here is how much of TeX's memory you used:
+ 227 strings out of 493706
+ 2539 string characters out of 6145769
+ 57323 words of memory out of 5000000
+ 3650 multiletter control sequences out of 15000+600000
+ 5158 words of font info for 19 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 23i,4n,19p,251b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 207 Formula.pdf (2 pages).
