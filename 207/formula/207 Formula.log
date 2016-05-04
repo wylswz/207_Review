@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  4 MAY 2016 21:39
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  4 MAY 2016 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -105,31 +105,26 @@ LaTeX Font Info:    ... okay on input line 3.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 6.
+(Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+(Font)              <7> on input line 6.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <17.28> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+ [1
 
-Overfull \hbox (0.64493pt too wide) in paragraph at lines 29--30
-[]\OT1/cmr/bx/n/17.28 MEMS\OT1/cmr/m/n/17.28 : Micro-Electro-Mechanical Sys-tem
-s. Micro-components in-te-grated
- []
-
-[1
-
-] [2] (./207 Formula.aux) ) 
+] [2]
+(./207 Formula.aux) ) 
 Here is how much of TeX's memory you used:
- 758 strings out of 493706
- 10458 string characters out of 6145769
- 70870 words of memory out of 5000000
- 4160 multiletter control sequences out of 15000+600000
- 6686 words of font info for 24 fonts, out of 8000000 for 9000
+ 753 strings out of 493706
+ 10383 string characters out of 6145769
+ 71870 words of memory out of 5000000
+ 4156 multiletter control sequences out of 15000+600000
+ 5465 words of font info for 20 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 23i,4n,19p,254b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,4n,19p,253b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 207 Formula.pdf (2 pages).
