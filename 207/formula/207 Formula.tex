@@ -1,5 +1,7 @@
 \documentclass{article}
+\usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
 \begin{document}
+\LARGE
   \section{Formula}
 Gauge Factor $$ G.e = \frac{\Delta R}{R} $$
 $$\frac{\Delta R}{R} = \frac{\Delta \rho}{\rho} + (1+2k)\frac{\Delta L}{L} = G.e$$
@@ -26,7 +28,7 @@ $$ r = 3.322log_2^n$$
     
     \item \textbf{MEMS}: Micro-Electro-Mechanical Systems. Micro-components integrated on a single chip, which allows the micro-system to control the system.
    \end{itemize}
-\section{Methodology}
+\section{Tao Lu}
   \subsection{Transient Response Analysis}
   \begin{enumerate}
    \item Find the point with proper $\frac{\omega}{\omega_n}$ and $\zeta$
@@ -38,6 +40,11 @@ $$ r = 3.322log_2^n$$
   
   \subsection{RTD}
   \begin{enumerate}
-  
+    \item Write down $R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$
+    \item Find R
+    \item $\epsilon(T) = R(T) - R(ideal)$
+    \item $\frac{d\epsilon (T)}{dT}$, find $T_0$
+    \item Find $\epsilon (T_0)$
+    \item $\epsilon(\% FSD) = \frac{\epsilon (T_0)}{R_{Max} - R_{Min}}$
   \end{enumerate}
 \end{document}
