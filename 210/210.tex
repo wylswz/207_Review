@@ -41,6 +41,22 @@
   \textbf{Drift Velocity}
   $$U_d = \mu_m E$$
   
+  \textbf{Transmission Line}
+  \begin{itemize}
+  \item \textbf{Shunt Admittance}: $Y = G + j\omega C$
+  \item \textbf{Series Impedance}: $Z = R + j \omega L$
+  \item \textbf{Propagation Constant}: $ \sqrt{ZY}$
+  \item \textbf{Attenuation Constant}:$ Re\sqrt{ZY}$
+  \item \textbf{Phase Constant}:$Im\sqrt{ZY} $
+  \item \textbf{Characteristic Impedance}:$Z_{line} = \sqrt{\frac{Z}{Y}} = \sqrt{\frac{R + j\omega L}{G + j\omega C}}$
+  \item \textbf{VSWR}: $VSWR = \frac{1+\Gamma_v}{1-\Gamma_v}$
+  \item \textbf{Reflection coefficient for V}:$\Gamma_v = \frac{Z_L - Z_0}{Z_L+Z_0}$
+  \item \textbf{Reflection coefficient for I}:$\Gamma_i = -\frac{Z_L - Z_0}{Z_L+Z_0} = -\Gamma_v$
+  
+  \item \textbf{Reflected Voltage}: $V_r = V_i \times \Gamma_v$
+  \item \textbf{Reflected Current}: $I_r = I_i \times \Gamma_i$
+  \end{itemize}
+  
   
   \section{Definitions}
   \begin{itemize}
@@ -53,10 +69,9 @@
   \item \textbf{Drift Velocity}: Mobility multiplied by E.
   \item \textbf{Magnatic Flux Density}:
   \item \textbf{Relative Permeability}:
-  \item \textbf{Transmission Line}:
-  \item \textbf{Application of Transmission Lines}:
-  \item \textbf{VSWR}:
-  \item \textbf{AC Circuit Theory}:
+  \item \textbf{Transmission Line}: Guide electromagnetic energy or info from one point to another.
+  \item \textbf{Application of Transmission Lines}: Telephone, coaxial cables, micro strip tracks on a PCB ......
+  \item \textbf{AC Circuit Theory}: $l<<\lambda$
   \end{itemize}
   
   
@@ -82,6 +97,14 @@
    \item Add them together.
    \end{enumerate}
 
+   \subsection{Wave Equation From Gauss's Law}
    
+   \begin{enumerate}
+     \item We know $\nabla\times E= -\frac{dB}{dt}$
+     \item Calculate curl for both side. $\nabla \times \nabla \times E = \nabla \times \nabla \times -\frac{dB}{dt}$
+     \item Substitute $\nabla \times B = \mu_0\epsilon_0\frac{dE}{dt}$ into the equation obtained before
+     \item $\nabla \times \nabla \times E  = \nabla (\nabla .E) - \nabla^2E$, where $\nabla .E$ is 0 in vacuum
+     \item $\nabla^2E = \mu_0\epsilon_0\frac{dE}{dt}$
+   \end{enumerate}
   
 \end{document}
