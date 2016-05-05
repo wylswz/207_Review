@@ -17,16 +17,30 @@
   
   \textbf{Electric Flux}
   $$\Psi = \iint\epsilon E ds = \iint Dds $$
+  
+  
   \textbf{Electric Flux Density}
   $$D = \frac{\Psi}{A}$$
 
-    
+  \textbf{Capacitor}
+  \begin{itemize}
+  \item $ C = \frac{\epsilon A}{d}$
+  \item $E = \frac{1}{2}CV^2$
+  \end{itemize}      
   
   \textbf{Magnetic Flux}
   $$ \Phi = \iint \mu Hds = \iint Bds $$
   
   \textbf{Magnetic Flux Density}
   $$B = \frac{\Phi}{A} = \mu H$$
+  
+  
+  \textbf{Resistivity}
+  $$\rho = \frac{RA}{l}$$
+  
+  \textbf{Drift Velocity}
+  $$U_d = \mu_m E$$
+  
   
   \section{Definitions}
   \begin{itemize}
@@ -36,7 +50,7 @@
   \item \textbf{Electric Flux}: Electric Flux through a surface is the integral of normal component of electric field multiplied by $\epsilon$.
   \item \textbf{Electric Flux Density}: Electric flux divided by A.
   \item \textbf{Permittivity}:Permittivity of vacuum multiplied by relative permittivity.
-  \item \textbf{Drift Velocity}:
+  \item \textbf{Drift Velocity}: Mobility multiplied by E.
   \item \textbf{Magnatic Flux Density}:
   \item \textbf{Relative Permeability}:
   \item \textbf{Transmission Line}:
@@ -48,4 +62,26 @@
   
   
   \section{Tao Lu}
+   \subsection{Know D, find $\rho$}
+   \begin{enumerate}
+     \item $\iint D ds = \rho$
+     \item Determine if the $\rho$ from last step is what we want.
+     \item If isn't, for example, we want the $\rho$ of a line, but we have $\rho$ in a volumn, then find the $\rho$ we want.
+   \end{enumerate}
+   
+   \subsection{Magnetic Flux Between Strips}
+   \begin{enumerate}
+   \item    $ H = \frac{I}{W} $, where W is the width of the strip.
+   \item  $\Phi = \mu HA$
+   \end{enumerate}
+   
+   \subsection{Find EMF}
+   \begin{enumerate}
+   \item Find EMF caused by change of B, $EMF = \frac{d\Phi}{dt} = \frac{A dB}{dt}$
+   \item Find EMF caused by $\int (v\times B)dL$
+   \item Add them together.
+   \end{enumerate}
+
+   
+  
 \end{document}

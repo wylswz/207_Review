@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  5 MAY 2016 15:44
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  5 MAY 2016 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -161,23 +161,23 @@ LaTeX Font Info:    ... okay on input line 4.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
  [1
 
 ] [2]
 (./210.aux) ) 
 Here is how much of TeX's memory you used:
- 1351 strings out of 493706
- 17115 string characters out of 6145769
- 81301 words of memory out of 5000000
- 4737 multiletter control sequences out of 15000+600000
- 5311 words of font info for 20 fonts, out of 8000000 for 9000
+ 1371 strings out of 493706
+ 17332 string characters out of 6145769
+ 82301 words of memory out of 5000000
+ 4750 multiletter control sequences out of 15000+600000
+ 9028 words of font info for 33 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 27i,4n,20p,215b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,4n,20p,215b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 210.pdf (2 pages).
