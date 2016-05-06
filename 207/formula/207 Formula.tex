@@ -61,10 +61,12 @@ $$A \oplus B$$
 \item Find the temperature.
 \end{enumerate}  
   
-  \subsection{RTD}
+  \subsection{RTD(end point linearity)}
   \begin{enumerate}
     \item Write down $R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$
-    \item Find R
+    \item Find R at $T_{max}$
+    \item Calculate the slope $\frac{T_{max}-T_{min}}{R_{max} - R_{min}}$
+    \item The slope is sensitivity.
     \item $\epsilon(T) = R(T) - R(ideal)$
     \item $\frac{d\epsilon (T)}{dT}$, find $T_0$
     \item Find $\epsilon (T_0)$
@@ -110,5 +112,12 @@ $$A \oplus B$$
   \item Isolate one of the ground paths with an isolation transformer, common mode choke, optical coupler, balanced circuitry, or frequency selective grounding.
   \end{enumerate}
   \end{itemize}
+  \subsection{Relative Error}
+  \begin{enumerate}
+  \item Find the variable X.
+  \item Find the error may occur $\Delta X$
+  \item Relative error is given by $\frac{\Delta X}{X}$ 
+\end{enumerate}    
+  
   
 \end{document}
