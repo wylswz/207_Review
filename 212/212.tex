@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[a4paper,top=1cm,bottom=2cm,left=1cm,right=1cm]{geometry}
+\usepackage{amsmath}
+\begin{document}
+\Large
+  \section{Formula}
+  
+   \textbf{De Broglie Hypothesis}
+   $$p = mv = \frac{h}{\lambda} = k\frac{h}{2\pi}$$
+   $$ k = \frac{2\pi}{\lambda} $$  
+   $$L = n\frac{\lambda}{2}$$
+   $$ p = \frac{hn}{2L}$$
+   
+   \textbf{Bragg}
+   $$2dsin\theta = n\lambda$$
+  
+  \textbf{Mass Action Law}
+  $$n_i^2 = np$$
+  
+  \textbf{Conductivity}
+  $$\sigma = q(\mu_hp+\mu_en)$$  
+  
+  \textbf{Depletion Region Width}
+  $$ \epsilon E = qN_Dx_p $$
+  $$ \epsilon E = qN_Ax_n$$ 
+  $$W = x_n + x_p = \frac{\epsilon E_{max}}{q}(\frac{1}{N_D} + \frac{1}{N_A})$$
+  
+  \textbf{Speed of CMOS}
+  $$\tau \propto \frac{L^2}{\mu}$$ 
+  
+  \section{Definition}
+  \section{Tao Lu}
+  \subsection{Derive $I_D$}
+   \begin{enumerate}
+     \item Mos capacitor: $Q = CV = -C_0(V_G - V_T - V_x) = qndz$
+     \item Current definition $I = qnvA$, where v is given by $v = \mu E$, $A = Wdz$
+     \item Substitute, $I = -C_0(V_G - V_T - V_x)\mu E W$
+     \item $E = -\frac{dV_x}{dx}$
+     \item $I = C_0(V_G - V_T - V_x)\mu \frac{dV_x}{dx} W$
+     \item Multiplied by $dx$, integration, find $I_D$
+   \end{enumerate}
+\end{document}
