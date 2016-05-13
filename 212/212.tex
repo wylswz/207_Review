@@ -19,16 +19,26 @@
   
   \textbf{Conductivity}
   $$\sigma = q(\mu_hp+\mu_en)$$  
+  For intrinsic, $\rho$ is several $\Omega$. For extrinsic, smaller than 1 $\Omega$
   
   \textbf{Depletion Region Width}
   $$ \epsilon E = qN_Dx_p $$
   $$ \epsilon E = qN_Ax_n$$ 
   $$W = x_n + x_p = \frac{\epsilon E_{max}}{q}(\frac{1}{N_D} + \frac{1}{N_A})$$
+  $$V_{bi} = \frac{1}{2}WE$$
+  $$V_{bi} = \phi_{Bn} + \phi{Bp}$$
   
   \textbf{Speed of CMOS}
   $$\tau \propto \frac{L^2}{\mu}$$ 
   
+  \textbf{Band Gap}
+  $$n_i^2 = N_vN_cexp(-\frac{E_g}{k_BT}) $$
+  
   \section{Definition}
+  \begin{itemize}
+    \item \textbf{Enhancement Type}:Gate voltage is needed for a channel.
+    \item \textbf{Depletion Type}:Need a gate voltage to turn it off.
+  \end{itemize}
   \section{Tao Lu}
   \subsection{Derive $I_D$}
    \begin{enumerate}
@@ -43,8 +53,9 @@
    \subsection{Derive Threshold Voltage}
    \begin{enumerate}
      \item $V_{ox} = \frac{V_G - V_{S}}{t_{ox}}$, $V_G = V_{ox}t_{ox} + \phi_s$
-     \item Apply Gauss's Law, get $E_s = \frac{N_At_sq}{\epsilon_0\epsilon_s}$ 
-     \item V is the area below E $t_s = \frac{\phi_s}{E_s}$
+     \item Apply Gauss's Law, get $E_s =\sqrt{ \frac{N_At_sq}{\epsilon_0\epsilon_s}}$ 
+     \item V is the area below E $t_s = \frac{2\phi_s}{E_s}$
+     \item $E_s =\sqrt{ 2\frac{N_Aq\phi_s}{\epsilon_0\epsilon_s}}$ 
      \item $\epsilon_{ox}E_{ox} = \epsilon_{s}E_s$
      \item Find $V_G$
    \end{enumerate}
@@ -56,4 +67,5 @@
      \item $D = \epsilon E_{max}$
      \item $V_{bi} = \frac{1}{2}(x_n + x_p)E_{max}$
    \end{enumerate}
+   
 \end{document}
