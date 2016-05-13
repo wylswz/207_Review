@@ -1,134 +1,194 @@
 \documentclass{article}
 \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1.4cm]{geometry}
 \begin{document}
-\Large
-  \section{Formula}
-\textbf{Gauge Factor} $$ G.e = \frac{\Delta R}{R} $$
-$$\frac{\Delta R}{R} = \frac{\Delta \rho}{\rho} + (1+2k)\frac{\Delta L}{L} = G.e$$
-
-\textbf{Poisson Ratio}
-$$v = -\frac{e_T}{e_L}$$
-
-\textbf{RTD(Resistance Temperature Device)} 
-$$R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$$
-$$\epsilon(T) = R(T) - R(ideal)$$
-
-
-\textbf{Thermistor}
-$$R = R_0e^{\frac{1}{\beta}(\frac{1}{T} - \frac{1}{T_0})}$$
-
-\textbf{Hamming Code}
-$$2^r = n+1$$
-$$ r = 3.322log_2^n$$
-
-\textbf{Accelerometer}
-
-Steady-state sensitivity
-$$ S_0 = \frac{Steady\ state \ voltage}{acceleration} $$ 
-Unit: $\frac{V}{g}$
-
-\textbf{First-order System}
-$$x(t) = x(\infty) + (x(0) - x(\infty))e^{-\frac{t}{\tau}}$$
-
-\textbf{Hamming Distance Between A and B}
-$$A \oplus B$$
-
-
-
-   \section{Definition}
-   \begin{itemize}
-    \item \textbf{Sensitivity}: Sensitivity if a measure of change in output of an instrument for a change in measurement input variable.
-    \item \textbf{Rosulution}: Resolution is smallest increment of measurand, which can be measured by instruments.
-    
-    \item \textbf{Nonlinearity}: Nonlinearity is defined as maximum deviation of any of output readings from the approximate transfer function.
-    
-    \item \textbf{Hysteresis}: Hysteresis is the deviation of sensor's output at a specified point of input signal, when the input signal is approached from opposite direction, it is expressed as maximum hysteresis.
-    
-    \item \textbf{MEMS}: Micro-Electro-Mechanical Systems. Micro-components integrated on a single chip, which allows the micro-system to control the system.
-   \end{itemize}
-\section{Tao Lu}
-  \subsection{Transient Response Analysis}
-  \begin{enumerate}
-   \item Find the point with proper $\frac{\omega}{\omega_n}$ and $\zeta$
-   \item Read $\frac{S}{S_0}$ from the graph
-   \item Convert from dB, then find S
-   \item $V = S \times a$, where a is acceleration
-   \item $V_{p-p} = 2\times V$
-  \end{enumerate}  
-  
-  \subsection{Thermalcouple}
-\begin{enumerate}
-\item Denote the voltage with reference temperature $T_1$ is $V_1$
-\item Find voltage at reference temperature $V_2$
-\item The voltage with reference temperature 0 is $V = V_1 + V_2$
-\item Find the temperature.
-\end{enumerate}  
-  
-  \subsection{RTD(end point linearity)}
-  \begin{enumerate}
-    \item Write down $R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$
-    \item Find R at $T_{max}$
-    \item Calculate the slope $\frac{T_{max}-T_{min}}{R_{max} - R_{min}}$
-    \item The slope is sensitivity.
-    \item $\epsilon(T) = R(T) - R(ideal)$
-    \item $\frac{d\epsilon (T)}{dT}$, find $T_0$
-    \item Find $\epsilon (T_0)$
-    \item $\epsilon(\% FSD) = \frac{\epsilon (T_0)}{R_{Max} - R_{Min}}$
-  \end{enumerate}
-  
-  \subsection{Strain Gauge}
-  \begin{itemize}
-  \item \textbf{Temperature Compensator}: Does not measure strain, use cross axis.
-  \item \textbf{Amplifier}: $Gain = \frac{R_{Right}}{R_Left}$
-  \end{itemize}
-  
-  \subsection{Resistive Potentiometer}
-  \begin{itemize}
-  \item \textbf{Error}: Caused by the resistance of potentiometer, or resistance of wires.
-  \end{itemize}
-  
-  \subsection{Fuel Tank}
-  Capacitance change when dielectric constant changes. The reading is not affected by the movement because the capacitors are connected in parallel, the total C does not change.
-  
-  \subsection{Accelerometer}
-  Advantages of Servo Accelerometers
-  \begin{itemize}
-  \item Electronically control damping and spring coefficient, easy to get desired characteristics
-  \item Low Hysteresis.
-  \end{itemize}
-  
-  \subsection{Noise Elimination}
-  \begin{itemize}
-  \item \textbf{Capacitive}: \begin{enumerate}
-  \item Differential Amplifier
-  \item Connect the inner conductor to outer conductor which is grounded
-  \end{enumerate}
-  
-  \item \textbf{Electromagnatic}: \begin{enumerate}
-  \item Twist the conductors(cancel induced voltage).
-  \item Physical seperation.
-  \end{enumerate}
-  
-  \item \textbf{Ground Loops}: \begin{enumerate}
-  \item Remove one of the ground paths, thus converting the system to a single point ground.
-  
-  \item Isolate one of the ground paths with an isolation transformer, common mode choke, optical coupler, balanced circuitry, or frequency selective grounding.
-  \end{enumerate}
-  \end{itemize}
-  \subsection{Relative Error}
-  \begin{enumerate}
-  \item Find the variable X.
-  \item Find the error may occur $\Delta X$
-  \item Relative error is given by $\frac{\Delta X}{X}$ 
-\end{enumerate}    
-
-\subsection{Phase Dector}
-  \begin{enumerate}
-   \item Find $V_0 = V_S(\frac{C_1}{C_1 + C_2} - \frac{1}{2})$
-   \item Write C as $\epsilon_r\epsilon_0 \frac{A}{d}$, and substitute into the function.
-   \item Replace d with $d \pm \Delta X$
-   \item The phase indicates the direction
-  \end{enumerate}
-  
-  
+	\normalsize
+	\section{Formula}
+	\textbf{Strain Gauge}:
+	\begin{itemize}
+		\item $\Delta l$:length
+		\item $\Delta a$: cross sectional area
+		\item Poisson Ratio: $v = -\frac{e_T}{e_L}$
+	\end{itemize}
+	$$strain guage:G=\frac{\frac{\Delta R}{R}}{e}$$
+	$$strain: e=\frac{\Delta L}{L}$$
+	$$\Rightarrow \frac{\Delta R}{R}=G\cdot e$$
+	$$R_{new}=R_{origin}(1+G\cdot e)$$
+	
+	\begin{itemize}
+		\item Quater Bridge:$V={out}=\frac{1}{4}V_s\cdot G\cdot e$
+		\item Half Bridge:$V={out}=\frac{1}{2}V_s\cdot G\cdot e$
+		\item Full Bridge:$V={out}=\frac{1}{1}V_s\cdot G\cdot e$
+	\end{itemize}
+	
+	
+	
+	\textbf{Gauge Factor} $$ G.e = \frac{\Delta R}{R} $$
+	$$\frac{\Delta R}{R} = \frac{\Delta \rho}{\rho} + (1+2k)\frac{\Delta L}{L} = G.e$$
+	
+	
+	\textbf{RTD(Resistance Temperature Device)} 
+	$$R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$$
+	$$\epsilon(T) = R(T) - R(ideal)$$
+	
+	
+	\textbf{Thermistor(Semiconductors)}
+	$$R = R_0e^{\frac{1}{\beta}(\frac{1}{T} - \frac{1}{T_0})}$$
+	
+	
+	
+	\textbf{Displacement Measurement}
+	\begin{itemize}
+		\item Resistive Potentiometer:$\displaystyle \frac{V_0}{V_S}=\frac{R_{AC}}{R_{AB}}=AC/AB$
+		\item Differential Capacitive transducer:
+		\begin{enumerate}
+			\item Three plate in parallel and move middle one: $\displaystyle V_0=-V_S\frac{\Delta x}{2d} $(Middle plate move to the right C2). Details in LECTURE 6.
+			\item Overlap area changing: $\displaystyle V_0=-V_S\frac{\Delta A}{2A} $(Increase overlap)
+		\end{enumerate}
+	\end{itemize}
+	
+	
+	\textbf{Hamming Code}
+	$$2^r = n+1$$
+	$$ r = 3.322log_2^n$$
+	
+	\textbf{Accelerometer}
+	
+	Steady-state sensitivity
+	$$ S_0 = \frac{Steady\ state \ voltage}{acceleration} $$ 
+	Unit: $\frac{V}{g}$
+	
+	\textbf{First-order System}
+	$$x(t) = x(\infty) + (x(0) - x(\infty))e^{-\frac{t}{\tau}}$$
+	
+	\textbf{Hamming Distance Between A and B}
+	$$A \oplus B$$
+	
+	
+	
+	\section{Definition}
+	\begin{itemize}
+		
+		\item \textbf{Sensors}: Detect physical variables and give measurable electrical output.
+		\item \textbf{Measurand}: The physical quantity being measured.
+		\item \textbf{Transducer}: Device which converts one energy to another.
+		\item \textbf{Accuracy}:How close the output reading of the instrument is to the correct value.
+		typically: $\pm 1\%$ of all scale.
+		\item \textbf{Precision}: Describes an instrument’s degree of freedom from random errors
+		\item \textbf{Resolution}: Smallest increment of measurand (increment).
+		\item \textbf{Sensitivity}: Sensitivity if a measure of change in output of an instrument for a change in measurement input variable.
+		\item \textbf{Rosulution}: Resolution is smallest increment of measurand, which can be measured by instruments.
+		
+		\item \textbf{Nonlinearity}: Nonlinearity is defined as maximum deviation of any of output readings from the approximate transfer function.
+		
+		\item \textbf{Hysteresis}: Hysteresis is the deviation of sensor's output at a specified point of input signal, when the input signal is approached from opposite direction, it is expressed as maximum hysteresis.
+		
+		\item \textbf{MEMS}: Micro-Electro-Mechanical Systems. Micro-components integrated on a single chip, which allows the micro-system to control the system.
+	\end{itemize}
+	
+	\section{Devices}
+	\textbf{Inductive transducers (LECTURE 7)}
+	\begin{itemize}
+		\item Linear Variable Differential Transfoemer(LVDT)
+		\item Rotray Variable Differential Transfoemer(RVDT)
+	\end{itemize}
+	
+	\textbf{Optical Transducers (LECTURE 7)}
+	
+	\begin{itemize}
+		\item Incremental: When moving to next sector, only 1 bit changes
+		\item absolute: Each sector increments by 1
+	\end{itemize}
+	\noindent Key points:The advantages and disadvantages for each
+	\section{Tao Lu}
+	\subsection{Transient Response Analysis}
+	\begin{enumerate}
+		\item Find the point with proper $\frac{\omega}{\omega_n}$ and $\zeta$
+		\item Read $\frac{S}{S_0}$ from the graph
+		\item Convert from dB, then find S
+		\item $V = S \times a$, where a is acceleration
+		\item $V_{p-p} = 2\times V$
+	\end{enumerate}  
+	
+	\subsection{Thermalcouple}
+	\begin{enumerate}
+		\item Denote the voltage with reference temperature $T_1$ is $V_1$
+		\item Find voltage at reference temperature $V_2$
+		\item The voltage with reference temperature 0 is $V = V_1 + V_2$
+		\item Find the temperature.
+	\end{enumerate}  
+	
+	\subsection{RTD(end point linearity)}
+	\begin{enumerate}
+		\item Write down $R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$
+		\item Find R at $T_{max}$
+		\item Calculate the slope $\frac{T_{max}-T_{min}}{R_{max} - R_{min}}$
+		\item The slope is sensitivity.
+		\item $\epsilon(T) = R(T) - R(ideal)$
+		\item $\frac{d\epsilon (T)}{dT}$, find $T_0$
+		\item Find $\epsilon (T_0)$
+		\item $\epsilon(\% FSD) = \frac{\epsilon (T_0)}{R_{Max} - R_{Min}}$
+	\end{enumerate}
+	
+	\subsection{Strain Gauge}
+	\begin{itemize}
+		\item \textbf{Temperature Compensator}: Does not measure strain, use cross axis.
+		\item \textbf{Amplifier}: $Gain = \frac{R_{Right}}{R_Left}$
+	\end{itemize}
+	
+	\subsection{Resistive Potentiometer}
+	\begin{itemize}
+		\item \textbf{Error}: Caused by the resistance of potentiometer, or resistance of wires.
+	\end{itemize}
+	
+	\subsection{Fuel Tank}
+	Capacitance change when dielectric constant changes. The reading is not affected by the movement because the capacitors are connected in parallel, the total C does not change.
+	
+	
+	\subsection{Parity Check}
+	\begin{enumerate}
+		\item 
+	\end{enumerate}
+	
+	
+	\subsection{Accelerometer}
+	Advantages of Servo Accelerometers
+	\begin{itemize}
+		\item Electronically control damping and spring coefficient, easy to get desired characteristics
+		\item Low Hysteresis.
+	\end{itemize}
+	
+	\subsection{Noise Elimination}
+	\begin{itemize}
+		\item \textbf{Capacitive}: \begin{enumerate}
+			\item Differential Amplifier
+			\item Connect the inner conductor to outer conductor which is grounded
+		\end{enumerate}
+		
+		\item \textbf{Electromagnatic}: \begin{enumerate}
+			\item Twist the conductors(cancel induced voltage).
+			\item Physical seperation.
+		\end{enumerate}
+		
+		\item \textbf{Ground Loops}: \begin{enumerate}
+			\item Remove one of the ground paths, thus converting the system to a single point ground.
+			
+			\item Isolate one of the ground paths with an isolation transformer, common mode choke, optical coupler, balanced circuitry, or frequency selective grounding.
+		\end{enumerate}
+	\end{itemize}
+	\subsection{Relative Error}
+	\begin{enumerate}
+		\item Find the variable X.
+		\item Find the error may occur $\Delta X$
+		\item Relative error is given by $\frac{\Delta X}{X}$ 
+	\end{enumerate}    
+	
+	\subsection{Phase Dector}
+	\begin{enumerate}
+		\item Find $V_0 = V_S(\frac{C_1}{C_1 + C_2} - \frac{1}{2})$
+		\item Write C as $\epsilon_r\epsilon_0 \frac{A}{d}$, and substitute into the function.
+		\item Replace d with $d \pm \Delta X$
+		\item The phase indicates the direction
+	\end{enumerate}
+	
+	
 \end{document}
