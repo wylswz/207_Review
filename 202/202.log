@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  10 MAY 2016 18:51
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  14 MAY 2016 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -171,11 +171,11 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 
 ] (./202.aux) ) 
 Here is how much of TeX's memory you used:
- 1351 strings out of 493706
- 17115 string characters out of 6145769
- 80301 words of memory out of 5000000
- 4737 multiletter control sequences out of 15000+600000
- 5311 words of font info for 20 fonts, out of 8000000 for 9000
+ 1353 strings out of 493706
+ 17144 string characters out of 6145769
+ 82301 words of memory out of 5000000
+ 4739 multiletter control sequences out of 15000+600000
+ 5916 words of font info for 22 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  27i,4n,20p,215b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
 
