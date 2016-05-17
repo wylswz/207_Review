@@ -1,18 +1,20 @@
 \documentclass{article}
 \usepackage[a4paper,top=1cm,bottom=2cm,left=1cm,right=1cm]{geometry}
 \usepackage{amsmath}
+\usepackage{esint}
 \begin{document}
 \Large
   \section{Formulas}
-  \textbf{Maxwell's Equations}
+  \textbf{Maxwell's Equations (Differential and Integral Form)}
 \begin{itemize}
-\item \textbf{Gauss's Law}  $$ \nabla .D = \rho $$
+\item \textbf{Gauss's Law}  $$ \nabla .D = \rho $$ $$ \iint_SDds = \iiint_V\rho dV = Q $$
 The divergence of electric flux at a point equals to the charge density at this point.
-\item \textbf{Gauss's Law for Magnetic Fields}   $$\nabla .B = 0$$
+\item \textbf{Gauss's Law for Magnetic Fields}   $$\nabla .B = 0$$ $$ \iint_S Bds = 0 $$
 There're no sink or source of B. B forms close loop.
-\item  \textbf{Farady's Law}  $$\nabla \times E = -\frac{\delta B}{\delta t}$$
+\item  \textbf{Farady's Law}  $$\nabla \times E = -\frac{\delta B}{\delta t}$$ $$ \oint EdL = -\iint_S \frac{\delta B}{\delta t}dS = V $$
 Electric field E arise due to a time changing magnetic flux density.
 \item  \textbf{Ampere's Law}  $$\nabla \times H = J_C + \frac{\delta D}{\delta t}$$
+$$ \oint_L HdL = \iint_S(J + \frac{\delta D}{\delta t})ds = I $$
 Magnetic field can arise due to conduction current density J or displacement current current density.
 \end{itemize}
   \textbf{Electric Field}
@@ -62,6 +64,7 @@ Magnetic field can arise due to conduction current density J or displacement cur
   
   \item \textbf{Reflected Voltage}: $V_r = V_i \times \Gamma_v$
   \item \textbf{Reflected Current}: $I_r = I_i \times \Gamma_i$
+  \item \textbf{Reflected Current and Voltage}: $V_r + V_i = V$, $I_r + I_i = I = \frac{V}{R_L}$
   \end{itemize}
   
   
