@@ -30,12 +30,12 @@
   Both side divided by $e$, $G = 1 + 2k + \frac{\Delta\rho}{\rho}\frac{1}{e}$, which is larger than unity.
 	
 	
-	\textbf{RTD(Resistance Temperature Device)} 
+	\textbf{RTD(Resistance Temperature Device) In Centigrade degree} 
 	$$R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$$
 	$$\epsilon(T) = R(T) - R(ideal)$$
 	
 	
-	\textbf{Thermistor(Semiconductors)}
+	\textbf{Thermistor(Semiconductors) In K}
 	$$R = R_0e^{\frac{1}{\beta}(\frac{1}{T} - \frac{1}{T_0})}$$
 	
 	
@@ -79,6 +79,8 @@
 		typically: $\pm 1\%$ of all scale.
 		\item \textbf{Precision}: Describes an instrument’s degree of freedom from random errors
 		\item \textbf{Resolution}: Smallest increment of measurand (increment).
+		\item \textbf{Tolerance}: Maximum deviation of a manufactured component from specified value.
+		\item \textbf{Span}: Mim and Max value of a quantity that the instrument is designed to measure.
 		\item \textbf{Sensitivity}: Sensitivity if a measure of change in output of an instrument for a change in measurement input variable.
 		\item \textbf{Rosulution}: Resolution is smallest increment of measurand, which can be measured by instruments.
 		
@@ -87,6 +89,7 @@
 		\item \textbf{Hysteresis}: Hysteresis is the deviation of sensor's output at a specified point of input signal, when the input signal is approached from opposite direction, it is expressed as maximum hysteresis.
 		
 		\item \textbf{MEMS}: Micro-Electro-Mechanical Systems. Micro-components integrated on a single chip, which allows the micro-system to control the system.
+
 	\end{itemize}
 	
 	\section{Devices}
@@ -104,14 +107,23 @@
 	\end{itemize}
 	\noindent Key points:The advantages and disadvantages for each
 	\section{Tao Lu}
-	\subsection{Transient Response Analysis}
+	\subsection{Transient Response Analysis(Type-1)}
 	\begin{enumerate}
 		\item Find the point with proper $\frac{\omega}{\omega_n}$ and $\zeta$
-		\item Read $\frac{S}{S_0}$ from the graph
+		\item Read $\frac{S}{S_0}$ from the graph(sometimes $20log_{10}(\frac{S}{S_0})$).
 		\item Convert from dB, then find S
 		\item $V = S \times a$, where a is acceleration
 		\item $V_{p-p} = 2\times V$
 	\end{enumerate}  
+	
+		\subsection{Transient Response Analysis(Type-2)}
+	\begin{enumerate}
+	
+	 \item Find $S_0$ by applying $S_0 = \frac{Steady\ State\ Response}{Acceleration}$
+	 \item The peak $\frac{S}{S_0}$ is the same as $P = \frac{V_P}{V_S}$
+	 \item Find  the value P on the curve.
+	 \item You know.
+	\end{enumerate}
 	
 	\subsection{Thermalcouple}
 	\begin{enumerate}
