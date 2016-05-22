@@ -2,7 +2,7 @@
 \usepackage[a4paper,top=1cm,bottom=2cm,left=1cm,right=1cm]{geometry}
 \usepackage{amsmath}
 \begin{document}
-\Large
+\normalsize
   \section{Formulas}
   \textbf{Maxwell's Equations}
 \begin{itemize}
@@ -66,6 +66,23 @@ Magnetic field can arise due to conduction current density J or displacement cur
   \item \textbf{Reflected Current}: $I_r = I_i \times \Gamma_i$
   \end{itemize}
   
+  \textbf{Poynting Vector}
+    \begin{table}[htpb!]
+    \centering
+     \caption{Poynting Vector}
+     \begin{tabular}{lll}
+     \hline
+     Property&Circuit & Field \\ \hline \hline
+     Voltage &$V$ & $E$ \\
+     Current &$I$  & $H$ \\
+     Impedance &$R$ & $Z = \sqrt{\frac{\mu}{\epsilon}}$ \\
+     Average Power 1 &$\frac{1}{2}Re(VI^*)$ & $\frac{1}{2}Re(EH^*)$ \\
+     Average Power 2 & $\frac{1}{2} \times \frac{V^2}{R}$ & $\frac{1}{2} \times \frac{E^2}{Z}$ \\
+     Average Power 3 & $\frac{1}{2}I^2R$ & $\frac{1}{2}H^2Z$ \\
+     
+     \end{tabular}
+    \end{table}
+  
   
   \section{Definitions}
   \begin{itemize}
@@ -124,5 +141,6 @@ Magnetic field can arise due to conduction current density J or displacement cur
      \item Calculate $20log_{10}(exp(\alpha\times x))$, where x is 1km.
      \item The Unit is dB/km
    \end{enumerate}
+   
   
 \end{document}
