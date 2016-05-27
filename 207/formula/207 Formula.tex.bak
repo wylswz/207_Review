@@ -30,13 +30,13 @@
   Both side divided by $e$, $G = 1 + 2k + \frac{\Delta\rho}{\rho}\frac{1}{e}$, which is larger than unity.
 	
 	
-	\textbf{RTD(Resistance Temperature Device) In Centigrade degree}
+	\textbf{RTD(Resistance Temperature Device) In Centigrade degree} 
 	$$R_T = R_0(1+a_1T + a_2T^2 + \cdots + a_nT^n)$$
 	$$\epsilon(T) = R(T) - R(ideal)$$
 	
 	
 	\textbf{Thermistor(Semiconductors) In K}
-	$$R = R_0e^{\beta(\frac{1}{T} - \frac{1}{T_0})}$$
+	$$R = R_0e^{\frac{1}{\beta}(\frac{1}{T} - \frac{1}{T_0})}$$
 	
 	
 	
@@ -58,7 +58,7 @@
 	\textbf{Accelerometer}
 	
 	Steady-state sensitivity
-	$$ S_0 = \frac{Steady\ state \ voltage}{acceleration} $$
+	$$ S_0 = \frac{Steady\ state \ voltage}{acceleration} $$ 
 	Unit: $\frac{V}{g}$
 	
 	\textbf{First-order System}
@@ -114,7 +114,7 @@
 		\item Convert from dB, then find S
 		\item $V = S \times a$, where a is acceleration
 		\item $V_{p-p} = 2\times V$
-	\end{enumerate}
+	\end{enumerate}  
 	
 		\subsection{Transient Response Analysis(Type-2)}
 	\begin{enumerate}
@@ -131,7 +131,7 @@
 		\item Find voltage at reference temperature $V_2$
 		\item The voltage with reference temperature 0 is $V = V_1 + V_2$
 		\item Find the temperature.
-	\end{enumerate}
+	\end{enumerate}  
 	
 	\subsection{RTD(end point linearity)}
 	\begin{enumerate}
@@ -162,7 +162,7 @@
 	
 	\subsection{Parity Check}
 	\begin{enumerate}
-		\item
+		\item 
 	\end{enumerate}
 	
 	
@@ -195,8 +195,8 @@
 	\begin{enumerate}
 		\item Find the variable X.
 		\item Find the error may occur $\Delta X$
-		\item Relative error is given by $\frac{\Delta X}{X}$
-	\end{enumerate}
+		\item Relative error is given by $\frac{\Delta X}{X}$ 
+	\end{enumerate}    
 	
 	\subsection{Phase Dector}
 	\begin{enumerate}

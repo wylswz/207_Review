@@ -1,15 +1,13 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.4.23)  22 MAY 2016 17:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.2)  27 MAY 2016 14:53
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**"207 Formula.tex"
-(./207 Formula.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+**C:/Users/Johnny/Documents/GitHub/207_Review/207/formula/207*Formula.tex
+("C:/Users/Johnny/Documents/GitHub/207_Review/207/formula/207 Formula.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+("E:\Program Files\CTEX\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("E:\Program Files\CTEX\MiKTeX\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -23,22 +21,22 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+("E:\Program Files\CTEX\MiKTeX\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+("E:\Program Files\CTEX\MiKTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("E:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+("E:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("E:\Program Files\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -53,10 +51,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-)
-(./207 Formula.aux)
-\openout1 = `"207 Formula.aux"'.
 
+("E:\Program Files\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg"))
+("C:\Users\Johnny\Documents\GitHub\207_Review\207\formula\207 Formula.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -71,9 +68,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -114,8 +111,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("E:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
@@ -125,17 +122,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 11.
  [1
 
-]
-Missing character: There is no â€™ in font cmr10!
- [2] [3]
-[4] (./207 Formula.aux) ) 
+{E:/Program Files/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}
+}]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [2] [3] [4]
+("C:\Users\Johnny\Documents\GitHub\207_Review\207\formula\207 Formula.aux") ) 
 Here is how much of TeX's memory you used:
- 772 strings out of 493706
- 10570 string characters out of 6145769
- 73868 words of memory out of 5000000
- 4167 multiletter control sequences out of 15000+600000
- 7895 words of font info for 28 fonts, out of 8000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 23i,6n,19p,249b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 778 strings out of 495354
+ 11020 string characters out of 3183075
+ 68570 words of memory out of 3000000
+ 3995 multiletter control sequences out of 15000+200000
+ 7895 words of font info for 28 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 23i,6n,19p,303b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E
+:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Progr
+am Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Program File
+s/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program Files/CTEX/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><E:/Program Files/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Program Files/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><E:/Program Files/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><E:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><E:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r5.pfb><E:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E
+:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Progr
+am Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "207 Formula.pdf" (4 pages, 163011 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on 207 Formula.pdf (4 pages).
