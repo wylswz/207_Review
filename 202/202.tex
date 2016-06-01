@@ -15,8 +15,8 @@
         \item \textbf{Time Constant of Envelope Dector}: $\frac{1}{\omega_c}<\tau<\frac{1}{2\pi B}$
         
         \item \textbf{Modulation Index(Angle Modulation)}: $\beta = \frac{\Delta f}{B}$
-        \item \textbf{Maximum Phase Deviation}: $\frac{Max(a) - Min(a)}{2}$
-        \item \textbf{Maximum Frequency Deviation}: $\frac{Max(a')- Min(a')}{2}$
+        \item \textbf{Maximum Phase Deviation}: $k\frac{Max(a) - Min(a)}{2}$
+        \item \textbf{Maximum Frequency Deviation}: $k\frac{Max(a')- Min(a')}{2}$
         \item \textbf{Narrowband Approximation}:$s(t) = A[cos(\omega_ct) - ka(t)sin(\omega_ct)]$, $|ka(t)|<<1$
         
      \end{itemize}
@@ -30,6 +30,12 @@
           \item \textbf{DSB}: $2B$
           \item \textbf{Narrow Band($\beta < 0.2$)}: $2B$
           \item\textbf{Angle Modulation(Effective Bandwidth)}: $2(B + \Delta f) = 2B(1+\beta)$
+        \end{itemize}
+    \subsection{Demodulate}
+        \begin{itemize}
+         \item AM: Envelope detector
+         \item  \begin{enumerate}\item Angle Modulation: Differentiator $->$ Envelope dector.  \item Zero-Crossing Detector \item Coherent demodulator \end{enumerate}
+
         \end{itemize}
      \section{Taolu}
 \end{document}
